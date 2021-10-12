@@ -154,7 +154,9 @@ class PropertyView extends CI_Controller
                 $maildata['how_many_children']=$_REQUEST['how_many_children'];                
                                
                 $sendmail = new SMTP_mail();
-                $sendmail->contactusEmail($maildata);
+                $res=$sendmail->contactusEmail($maildata);
+                
+                print_r($res);die;
                 
                 successOrErrorMessage("Your application has been submit", 'success');
                 redirect(FRONT_CONFIRMATION_APPLICATION);
