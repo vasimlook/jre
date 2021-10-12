@@ -155,7 +155,7 @@ class PropertyView extends CI_Controller
                
                 $sendmail = new SMTP_mail();
                 $res=$sendmail->contactusEmail($maildata);
-               
+                print_r($res);die;
                 
                 successOrErrorMessage("Your application has been submit", 'success');
                 redirect(FRONT_CONFIRMATION_APPLICATION);
