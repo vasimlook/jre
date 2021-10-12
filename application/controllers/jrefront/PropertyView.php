@@ -152,10 +152,9 @@ class PropertyView extends CI_Controller
                 $maildata['date_time']=date("d-m-Y h:i:s A");
                 $maildata['viewer_feedback']=$_REQUEST['viewer_feedback'];
                 $maildata['how_many_children']=$_REQUEST['how_many_children'];                
-               
-                print_r($maildata);die;
+                               
                 $sendmail = new SMTP_mail();
-                $res=$sendmail->contactusEmail($maildata);
+                $sendmail->contactusEmail($maildata);
                 
                 successOrErrorMessage("Your application has been submit", 'success');
                 redirect(FRONT_CONFIRMATION_APPLICATION);
