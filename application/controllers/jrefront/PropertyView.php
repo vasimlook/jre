@@ -7,7 +7,7 @@ class PropertyView extends CI_Controller
 
     public function __construct(){
         parent::__construct();
-          include APPPATH . 'third_party/smtp_mail/smtp_send.php';
+          include APPPATH . 'third_party/vendor/smtp_send.php';
         $this->load->model('employeem/Employee_m');
         $this->load->model('jrefront/PropertyView_m');
         $this->load->model('jrefront/Customers_m');
