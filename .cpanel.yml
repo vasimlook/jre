@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/knebxnii/public_html/jre.codexives.com/
+    - export DEPLOYPATH=/home/akashs/public_html/janvi/
     - /bin/cp * $DEPLOYPATH
