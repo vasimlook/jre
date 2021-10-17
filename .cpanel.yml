@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/knebxnii/public_html/jre.codexives.com/
+    - /bin/cp * $DEPLOYPATH
