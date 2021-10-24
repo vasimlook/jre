@@ -292,7 +292,7 @@
                         if (res.suceess) {
                             self.parent('td').parent('tr').next('.child').remove();
                             self.parent('td').parent('tr').remove();
-                            alert('Deleted successfully');
+//                            alert('Deleted successfully');
                         }
                     }
                 });
@@ -477,7 +477,7 @@
                         if (res.suceess) {
                             self.parent('td').parent('tr').next('.child').remove();
                             self.parent('td').parent('tr').remove();
-                            alert('Deleted successfully');
+//                            alert('Deleted successfully');
                         }
                     }
                 });
@@ -625,7 +625,7 @@
                         if (res.suceess) {
                             self.parent('td').parent('tr').next('.child').remove();
                             self.parent('td').parent('tr').remove();
-                            alert('Recover successfully');
+//                            alert('Recover successfully');
                         }
                     }
                 });
