@@ -220,8 +220,8 @@
                 var wherefield = self.attr('data-wherefield');
                 var status = self.attr('data-status');
 
-                if (!confirm('Are you sure want to update?'))
-                    return;
+//                if (!confirm('Are you sure want to update?'))
+//                    return;
     //                self.attr('disabled', 'disabled');
 
                 var data = {
@@ -272,8 +272,8 @@
                 var wherefield = self.attr('data-wherefield');
                 var status = self.attr('data-status');
 
-                if (!confirm('Are you sure want to update?'))
-                    return;
+//                if (!confirm('Are you sure want to update?'))
+//                    return;
     //                self.attr('disabled', 'disabled');
 
                 var data = {
@@ -405,8 +405,8 @@
                 var wherefield = self.attr('data-wherefield');
                 var status = self.attr('data-status');
 
-                if (!confirm('Are you sure want to update?'))
-                    return;
+//                if (!confirm('Are you sure want to update?'))
+//                    return;
     //                self.attr('disabled', 'disabled');
 
                 var data = {
@@ -457,8 +457,8 @@
                 var wherefield = self.attr('data-wherefield');
                 var status = self.attr('data-status');
 
-                if (!confirm('Are you sure want to update?'))
-                    return;
+//                if (!confirm('Are you sure want to update?'))
+//                    return;
     //                self.attr('disabled', 'disabled');
 
                 var data = {
@@ -604,8 +604,8 @@
                 var wherefield = self.attr('data-wherefield');
                 var status = self.attr('data-status');
 
-                if (!confirm('Are you sure want to update?'))
-                    return;
+//                if (!confirm('Are you sure want to update?'))
+//                    return;
     //                self.attr('disabled', 'disabled');
 
                 var data = {
@@ -693,8 +693,8 @@
 
                 var status = self.attr('data-status');
 
-                if (!confirm('Are you sure want to update?'))
-                    return;
+//                if (!confirm('Are you sure want to update?'))
+//                    return;
                 self.attr('disabled', 'disabled');
 
                 var data = {

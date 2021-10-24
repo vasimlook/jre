@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/knebxnii/public_html/janvi/
+    - export DEPLOYPATH=/home/knebxnii/public_html/jre/
     - /bin/cp * $DEPLOYPATH
